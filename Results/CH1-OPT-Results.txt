@@ -20,10 +20,3 @@ Result: sumX= 98050, sumY= 97720, sumZ= 98397
 
        4,739740000 seconds user
        0,001000000 seconds sys
-
-
-
-Challenge #1: Vector size is 10000. Kernel size is 2000. Repeat 1000 times
-Result: sumX= 98050, sumY= 97720, sumZ= 98397
-[ perf record: Woken up 4 times to write data ]
-[ perf record: Captured and wrote 0,754 MB perf.data (19723 samples) ]
