@@ -1,5 +1,5 @@
 # AC-Challenge1
 
-First optimization challenge from Computer Architecture
+Primer reto de optimización de la asignatura Arquitectura de computadores
 
 Speed-up = 10.84x
