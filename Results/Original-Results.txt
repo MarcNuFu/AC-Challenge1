@@ -1,0 +1,22 @@
+Compile CH1.c for CPU execution with gcc -O1 version 8.2 in file ./CH1.O1
+
+Challenge #1: Vector size is 10000. Kernel size is 2000. Repeat 1000 times
+Result: sumX= 98050, sumY= 97720, sumZ= 98397
+
+ Performance counter stats for './CH1.O1':
+
+         51.545,72 msec task-clock                #    1,000 CPUs utilized          
+                42      context-switches          #    0,001 K/sec                  
+                 5      cpu-migrations            #    0,000 K/sec                  
+               181      page-faults               #    0,004 K/sec                  
+   200.392.432.633      cycles                    #    3,888 GHz                    
+    27.696.145.259      stalled-cycles-frontend   #   13,82% frontend cycles idle   
+   414.328.293.569      instructions              #    2,07  insn per cycle         
+                                                  #    0,07  stalled cycles per insn
+   136.649.780.534      branches                  # 2651,041 M/sec                  
+     3.248.517.557      branch-misses             #    2,38% of all branches        
+
+      51,550170482 seconds time elapsed
+
+      51,530380000 seconds user
+       0,016008000 seconds sys
